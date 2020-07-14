@@ -1,7 +1,7 @@
 body{
     margin-top:0;
-    margin-left:5%;
-    margin-right: 5%;
+    margin-left:2%;
+    margin-right: 2%;
     
     padding:0;
 }
@@ -38,8 +38,8 @@ li {
 
 /* gallery */
 img {
-    width: 30%;
-    height:25rem;
+    width: 30vw;
+    height:25em;
     margin:2px;
     border:5px solid transparent;
 }
@@ -69,3 +69,63 @@ img:hover {
 
 }
 
+/* media queries */
+
+@media(min-width:100px){
+    img {
+        width:80%;
+        margin:7%;
+        border:10px solid transparent;
+    }
+
+    img:hover {
+        border: 10px solid rgb(178, 209, 228 );
+    }
+    
+    nav ul {
+        display:none;
+    }
+
+    #logo {
+        margin: 0 auto;
+    }
+
+    nav img#hamburger{
+        display: inline;
+        width:20px;
+        height:20px;
+        border:none;
+    }
+    nav img#hamburger:hover{
+        border:none;
+    }
+}
+
+@media(min-width:680px){
+    img {
+        width:45%;
+        margin:0 auto;
+        margin-left: 1%;
+        
+    }
+    header {
+        margin-bottom:3%;
+        margin-top: 2%;
+    }
+
+}
+
+@media(min-width:1200px){
+    img{
+        width: 28vw;
+        margin:0 auto;
+    }
+
+    header nav img#hamburger{
+        display:none;
+    }
+
+    nav ul {
+        display: initial;
+    }
+}
