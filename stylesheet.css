@@ -1,0 +1,71 @@
+body{
+    margin-top:0;
+    margin-left:5%;
+    margin-right: 5%;
+    
+    padding:0;
+}
+
+/* header */
+nav ul li, #logo {
+    display:inline;
+}
+
+ul {
+    display:inline;
+}
+ 
+header nav{
+    display: inline-flex;
+    justify-content: center;align-items: center;
+
+}
+
+header {
+    display: flex; 
+    justify-content: space-evenly;
+    margin:0;
+}
+
+li {
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+}
+
+#logo {
+    font-family: 'Cinzel', serif;
+}
+
+/* gallery */
+img {
+    width: 30%;
+    height:25rem;
+    margin:2px;
+    border:5px solid transparent;
+}
+
+a {
+    text-decoration: none;
+    color:black;  
+    margin:0.5rem;
+    padding: 0.5em;
+    border-radius: 3%;
+  
+
+}
+
+
+
+a:hover {
+    background-color: rgba(178, 209, 228 , 0.5);
+    transition: 1s;
+    
+}
+
+img:hover {
+    border: 5px solid rgb(178, 209, 228 );
+    transition: 1.5s;
+    
+
+}
+
